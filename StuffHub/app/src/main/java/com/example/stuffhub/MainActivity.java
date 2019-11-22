@@ -21,6 +21,8 @@ import com.google.firebase.database.ValueEventListener;
 
 import io.paperdb.Paper;
 
+import static com.example.stuffhub.Prevalent.Prevalent.currentOnlineUser;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button joinNowButton,loginButton;
@@ -91,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
                             loadingBar.dismiss();
 
                             Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                            Prevalent.currentOnlineUser = userData;
                             startActivity(intent);
                         }
                         else
