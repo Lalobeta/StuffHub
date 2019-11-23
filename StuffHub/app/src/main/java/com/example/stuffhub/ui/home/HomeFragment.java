@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
 
 
-        ProductsRef = FirebaseDatabase.getInstance().getReference().child("Products");
+        //ProductsRef = FirebaseDatabase.getInstance().getReference().child("Products");
         return inflater.inflate(R.layout.fragment_home, container,false);
     }
 
