@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/inicio"
     tools:context=".Buyer.MainActivity">
 
     <ImageView
@@ -20,21 +20,7 @@
         android:src="@drawable/applogos"
         />
 
-    <TextView
-        android:id="@+id/app_slogan"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="88dp"
-        android:layout_marginTop="170dp"
 
-        android:text="Find, Discover, Choose and Buy "
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="22sp"
-        android:textStyle="bold|italic"
-        />
     <Button
         android:id="@+id/main_join_now_btn"
         android:layout_width="match_parent"
@@ -47,8 +33,8 @@
         android:padding="20dp"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:text="Join Now"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="¡Registrate ahora!"
+        android:textColor="@android:color/white"
 
         />
 
@@ -64,7 +50,7 @@
         android:padding="20dp"
         android:textAllCaps="false"
         android:textSize="18sp"
-        android:text="Already have an Account? Login"
+        android:text="¿Ya tienes una cuenta? Ingresa"
         android:textColor="@android:color/white"
 
         />
@@ -75,9 +61,9 @@
         android:id="@+id/seller_begin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Want to become a seller?"
+        android:text="¿Quieres convertirte en vendedor?"
         android:textSize="20dp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/white"
         android:textStyle="bold"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"

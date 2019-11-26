@@ -8,17 +8,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.Toast;
 
-import com.example.stuffhub.Interface.itemClickListener;
 import com.example.stuffhub.Model.Products;
 import com.example.stuffhub.R;
-import com.example.stuffhub.Sellers.SellerLoginActivity;
 import com.example.stuffhub.ViewHolder.ProductViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;

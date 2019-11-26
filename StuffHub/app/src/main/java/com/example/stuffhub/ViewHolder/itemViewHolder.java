@@ -7,14 +7,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stuffhub.Interface.itemClickListener;
+import com.example.stuffhub.Interface.ItemClickListener;
 import com.example.stuffhub.R;
 
 public class itemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
     public TextView txtProductName, txtProductDescription, txtProductPrice,txtProductStatus;
     public ImageView imageView;
-    public itemClickListener listener;
+    public ItemClickListener listener;
 
     public itemViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -27,7 +27,7 @@ public class itemViewHolder extends RecyclerView.ViewHolder implements View.OnCl
 
     }
 
-    public  void setItemClickListener(itemClickListener listener)
+    public  void setItemClickListener(ItemClickListener listener)
     {
         this.listener = listener;
     }

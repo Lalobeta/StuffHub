@@ -2,7 +2,7 @@ package com.example.stuffhub.Interface;
 
 import android.view.View;
 
-public interface itemClickListener {
+public interface ItemClickListener {
 
     void onClick(View view, int position, boolean isLongClick);
 }

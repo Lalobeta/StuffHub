@@ -18,7 +18,7 @@
             android:id="@+id/total_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="All Un-verified Products"
+            android:text="Todos los productos no verificados"
             android:textColor="@android:color/white"
             android:textSize="18dp"
             android:textStyle="bold"

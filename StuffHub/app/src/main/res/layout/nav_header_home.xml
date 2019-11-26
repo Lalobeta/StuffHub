@@ -28,7 +28,7 @@
         android:paddingTop="8dp"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:text="User name"
+        android:text="Nombre de usuario"
         android:layout_marginStart="4dp"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />

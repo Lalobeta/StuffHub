@@ -1,6 +1,5 @@
 package com.example.stuffhub.ViewHolder;
 
-import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -8,14 +7,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stuffhub.Interface.itemClickListener;
+import com.example.stuffhub.Interface.ItemClickListener;
 import com.example.stuffhub.R;
 
 public class ProductViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
 {
     public TextView txtProductName, txtProductDescription, txtProductPrice;
     public ImageView imageView;
-    public itemClickListener listener;
+    public ItemClickListener listener;
 
     public ProductViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -27,7 +26,7 @@ public class ProductViewHolder extends RecyclerView.ViewHolder implements View.O
 
     }
 
-    public  void setItemClickListener(itemClickListener listener)
+    public  void setItemClickListener(ItemClickListener listener)
     {
         this.listener = listener;
     }

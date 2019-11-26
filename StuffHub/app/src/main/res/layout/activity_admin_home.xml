@@ -10,7 +10,7 @@
         android:id="@+id/admin_welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome Dear Admin"
+        android:text="Bienvenido Admin"
         android:textAlignment="center"
         android:textSize="17dp"
         android:textStyle="bold"

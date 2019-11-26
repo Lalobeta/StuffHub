@@ -5,13 +5,13 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stuffhub.Interface.itemClickListener;
+import com.example.stuffhub.Interface.ItemClickListener;
 import com.example.stuffhub.R;
 
 public class CartViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
 {
     public TextView TxtProductName, TxtProductPrice, TxtProductQuantity;
-    private com.example.stuffhub.Interface.itemClickListener itemClickListener;
+    private ItemClickListener itemClickListener;
 
     public CartViewHolder (View itemView)
     {
@@ -27,7 +27,7 @@ public class CartViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         itemClickListener.onClick(view, getAdapterPosition(),false);
     }
 
-    public void setItemClickListener(com.example.stuffhub.Interface.itemClickListener itemClickListener) {
+    public void setItemClickListener(ItemClickListener itemClickListener) {
         this.itemClickListener = itemClickListener;
     }
 }

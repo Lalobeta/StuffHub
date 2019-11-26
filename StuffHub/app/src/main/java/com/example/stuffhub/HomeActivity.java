@@ -248,7 +248,7 @@ public class HomeActivity extends AppCompatActivity implements  NavigationView.O
             case R.id.nav_cart:
                 if(!type.equals("Admin"))
                 {
-                    intent = new Intent(HomeActivity.this, Cart.class);
+                    intent = new Intent(HomeActivity.this, CartActivity.class);
                     startActivity(intent);
                 }
 
@@ -262,9 +262,9 @@ public class HomeActivity extends AppCompatActivity implements  NavigationView.O
                 }
 
                 break;
-            case R.id.nav_categories:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CategoriesFragment()).commit();
-                break;
+//            case R.id.nav_categories:
+//                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CategoriesFragment()).commit();
+//                break;
             case R.id.nav_settings:
                 if(!type.equals("Admin"))
                 {

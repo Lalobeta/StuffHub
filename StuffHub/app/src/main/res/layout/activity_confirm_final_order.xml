@@ -10,7 +10,7 @@
         android:id="@+id/txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Please confirm your Shipment Details"
+        android:text="Por favor, confirma los datos de tu envío"
         android:textSize="18dp"
         android:textColor="@color/colorPrimary"
         android:layout_margin="25dp"
@@ -26,7 +26,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Your Name"
+        android:hint="Tu nombre"
         />
 
     <EditText
@@ -38,7 +38,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Your Phone Number"
+        android:hint="Tu número de teléfono"
         />
 
     <EditText
@@ -49,7 +49,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Your Home Address"
+        android:hint="Tu dirección"
         />
 
     <EditText
@@ -60,7 +60,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:hint="Your City Name"
+        android:hint="Tu ciudad"
         />
 
     <Button
@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
-        android:text="Confirm"
+        android:text="Confirmar"
         android:background="@color/colorPrimary"
         android:textColor="@android:color/white"
         android:textSize="20dp"
